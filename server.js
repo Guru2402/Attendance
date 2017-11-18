@@ -1,10 +1,10 @@
 
-var express = require("express"),
-	bodyParser = require("body-parser"),
-	mongoose	= require("mongoose"),
+var ejs          = require("ejs"),
+    express = require("express"),
+    bodyParser = require("body-parser"),
+    mongoose	= require("mongoose"),
     mongoXlsx = require('mongo-xlsx'),
-	ejs          = require("ejs");
-var MongoClient = require('mongodb').MongoClient;
+    MongoClient = require('mongodb').MongoClient;
 
 mongoose.Promise = global.Promise;
 mongoose.connect("mongodb://localhost/attendance");
