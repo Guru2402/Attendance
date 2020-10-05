@@ -1,4 +1,4 @@
-# Attendance App - Guru2402
+# Attendance App - Gpstrange
 
 
 ## Instructions
